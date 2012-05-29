@@ -1,0 +1,249 @@
+/********************RESETS*********************/
+
+*{
+	margin:0;
+	padding:0;
+}
+
+.nf{
+	clear:both;
+}
+
+/****************ESTILOS GENERALES***************/
+
+body{
+	background:#fff;
+}
+
+#wrapper{
+	height:865px;
+	overflow: hidden;
+	
+}
+
+
+header{
+	width:1004px;
+	margin:0 auto;
+	
+}
+
+nav{
+	
+}
+
+section{
+	
+}
+
+article{
+	
+}
+
+footer{
+	background: #42453d url(../images/footer_bg.gif);
+	background-repeat:repeat-x;
+	margin:0 auto;
+	text-align:center;
+}
+
+/****************ID'S*****************/
+
+#bgheader{
+	background-image:url(../images/header_bg.jpg);
+	background-repeat:repeat-x;
+	height:203px;
+}
+
+#logo{
+	padding:46px 0 0 114px;
+}
+
+#navegacion{
+	width:700px;
+	padding:0 0 0 114px;
+}
+
+#navegacion ul{
+	width:650px;
+	list-style-type: none;
+}
+
+#navegacion ul li{
+	display:inline-block;
+	height:41px;
+}
+
+#contenido{
+	margin:0 auto;
+	width:790px;
+	height:620px;
+}
+
+#banner{
+	width:100%;
+	height:260px;
+	
+}
+
+#banner #foto{
+	float:left;
+}
+
+#buscador{
+	width:150px;
+	float:left;
+	padding:10px 0 0 12px;
+}
+
+#buscador p{
+	font-family:Tahoma, arial;
+	font-size:10px;
+	font-weight:normal;
+	color:#565758;
+}
+
+#buscador input{
+	width:139px;
+	height:20px;
+	border: 1px solid #859d31;
+}
+
+#buscador a{
+	padding-top:5px;
+	float:right;
+	padding-right:8px;
+}
+
+#postizq{
+	width:408px;
+	height:350px;
+	padding: 23px 0 0 0;
+	float:left;
+}
+
+#postizq h1{
+	font-family: "Myriad Pro", arial;
+	font-size:18px;
+	font-weight:normal;
+	color:#a5b95e;
+}
+
+#postizq p{
+	font-family:Tahoma, arial;
+	font-size:11px;
+	font-weight:normal;
+	color:#5c5c5c;
+	padding-top:10px;
+}
+
+#postizq a{
+	font-family:Tahoma, arial;
+	font-size:10px;
+	font-weight:bold;
+	color:#aeaeae;
+	text-decoration:none;
+	float:right;
+}
+
+#postizq h2{
+	font-family:"Myriad Pro", arial;
+	font-size:18px;
+	font-weight:normal;
+	color:#a5b95e;
+	padding:8px 0 3px 0;
+}
+
+#postizq img{
+	float:left;
+	padding-right:35px;
+}
+
+#postizq p{
+	text-align:justify;
+}
+
+#postizq p span{
+	font-weight:bold;
+	word-spacing: 18px;
+}
+
+#postizq ul{
+	float:left;
+	font-family:Tahoma, arial;
+	font-size:10px;
+	font-weight:bold;
+	color:#5c5c5c;
+	width:285px;
+	padding-left:105px;
+	text-align:justify;
+}
+
+#postizq ul li{
+	padding-bottom:12px;
+	list-style-type: none;
+	background-image: url(../images/bullet_plus.gif);
+	background-repeat:no-repeat;
+	padding-left:20px;
+	background-position: 2px 2px;
+}
+
+#postder{
+	width:335px;
+	float:right;
+	padding: 23px 0 0 0;
+}
+
+#postder h1{
+	font-family:"Myriad Pro", arial;
+	font-size:20px;
+	font-weight:normal;
+	color:#839837;
+	padding-bottom:19px;
+}
+
+#postder p{
+	font-family:Tahoma, arial;
+	font-size:11px;
+	font-weight:normal;
+	color:#5c5c5c;
+	width:327px;
+}
+
+#postder a{
+	float:right;
+	padding:8px 25px 0 0;
+}
+
+#postder h2{
+	font-family:"Myriad Pro", arial;
+	font-size:20px;
+	font-weight:normal;
+	color:#839837;
+	padding-top:35px;
+
+}
+
+#postder ul{
+	list-style-type: none;
+	padding-top:12px;
+}
+
+#postder ul li{
+	display: inline-block;
+}
+
+#footer{
+	font-family: Tahoma, arial;
+	font-size:10px;
+	font-weight:normal;
+	color:#fff;
+	padding:5px;
+	letter-spacing: 2px;
+}
+
+#footer a{
+	text-decoration:none;
+	color:white;
+	border-bottom:dotted;
+}
