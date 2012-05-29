@@ -9,42 +9,42 @@
 	clear:both;
 }
 
+
 /****************ESTILOS GENERALES***************/
 
 body{
+	width:100%;
+	height:100%;
 	background:#fff;
 }
 
 #wrapper{
-	height:865px;
-	overflow: hidden;
 	
 }
 
 
 header{
-	width:1004px;
+	width:780px;
 	margin:0 auto;
-	
-}
-
-nav{
-	
-}
-
-section{
-	
-}
-
-article{
-	
-}
+	}
 
 footer{
 	background: #42453d url(../images/footer_bg.gif);
 	background-repeat:repeat-x;
 	margin:0 auto;
 	text-align:center;
+	font-family: Tahoma, arial;
+	font-size:10px;
+	font-weight:normal;
+	color:#fff;
+	padding:5px;
+	letter-spacing: 2px;
+}
+
+footer a{
+	border-bottom:dotted;
+	color:#fff;
+	text-decoration:none;
 }
 
 /****************ID'S*****************/
@@ -56,26 +56,25 @@ footer{
 }
 
 #logo{
-	padding:46px 0 0 114px;
+	padding:46px 0 0 0;
 }
 
 #navegacion{
-	width:700px;
-	padding:0 0 0 114px;
+	width:780px;
 }
 
 #navegacion ul{
-	width:650px;
+	width:750px;
 	list-style-type: none;
 }
 
 #navegacion ul li{
-	display:inline-block;
-	height:41px;
+	float:left;
 }
 
+
 #contenido{
-	margin:0 auto;
+	margin:auto;
 	width:790px;
 	height:620px;
 }
@@ -227,23 +226,11 @@ footer{
 #postder ul{
 	list-style-type: none;
 	padding-top:12px;
+	width:320px;
+	height:170px;
 }
 
 #postder ul li{
 	display: inline-block;
 }
 
-#footer{
-	font-family: Tahoma, arial;
-	font-size:10px;
-	font-weight:normal;
-	color:#fff;
-	padding:5px;
-	letter-spacing: 2px;
-}
-
-#footer a{
-	text-decoration:none;
-	color:white;
-	border-bottom:dotted;
-}
